@@ -4918,3 +4918,1007 @@ body{
 
 }
 
+
+@media(max-width:280px){
+   
+        .container .header  .logo {
+            width: 10%;
+            position: absolute;
+            left: 40px;
+            top: 50px;
+            position: fixed;
+        }
+        
+        
+        .container .header .nav{
+            display: flex;
+            justify-content: space-around;
+            position: fixed;
+        }
+        
+        .header .nav:hover .icon span:nth-child(2){
+            width: 100%;
+        }
+        .header .nav .icon{
+            position: absolute;
+            right: -110px;
+            top: 20px;
+            width: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+    
+        .header .nav .icon span{
+            background-color: #333;
+            margin-bottom: 5px;
+            height: 4px;
+        }
+        .header .nav .icon span:first-child{
+            width: 100%;
+        }
+        .header .nav .icon span:nth-child(2){
+            width: 60%;
+            transition: 0.3s;
+        }
+        .header .nav .icon span:last-child{
+            width: 100%;
+        }
+        
+        .header .nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f6f6;
+            position: absolute;
+            right: -110px;
+            top: 300px;
+            min-width: 200px;
+            top: calc(100% + 15px);
+            display: none;
+            z-index: 1;
+        }
+        .header .nav ul::before{
+            content: "";
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent transparent #f6f6f6 transparent;
+            position: absolute;
+            right: 5px;
+            top: -20px;
+        }
+        .header .nav:hover ul{
+            display: block;
+        }
+        .header .nav ul li a{
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            color: #333;
+            transition: 0.3s;
+        }
+        .header .nav ul li a:hover{
+            padding-left: 25px;
+        }
+        .header .nav ul li:not(:last-child) a{
+            border-bottom: 1px solid #ddd;
+        }
+        
+        
+        /*============= Header End =============*/
+    
+        /* --============= Freist Chat==========- */
+        .card-1{
+            width: 90%;    
+       }
+       
+       .ball{
+             display: flex;
+             justify-content: space-around;    
+             flex-wrap: wrap;
+       }
+       
+       .card-1 .ball .animation img{
+           width: 80%;
+           position: absolute;
+           right: 15px;
+           top: 150px;
+       }
+       
+       .card-1 .ball .centar{
+           position: absolute;
+           top: 480px;
+           left: 28px;
+       }
+       
+       .card-1 .ball .centar h1{
+           font-size: 35px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           position: absolute;
+           right: 30px;
+       }
+       
+       .card-1 .ball .centar p{
+           font-size: 20px;
+           margin-right: 11px;
+           margin-top: 60px;
+       }
+       
+       .card-1 .ball .centar button{
+           border: 1px solid white;
+           border-radius: 25px;
+           background-color: orange;
+           color: white;
+           width: 100px;
+           line-height: 50px;
+           font-weight: bold;
+           font-size: 20px;
+           position: absolute;
+           left: 45px;
+       }
+       
+       .card-1 .ball .centar button:hover{
+           background-color: dodgerblue;
+       }
+    
+    
+    /*============Freis Chat End======================*/
+    
+    /*============Start Scande Chate======================*/
+    .card-2{
+       width: 90%;
+       margin: auto;
+    }
+    
+    .line{
+       display: flex;
+       justify-content: space-around;
+       background-color:gainsboro;
+       width: 100%;
+       height: 500px;
+       position: relative;
+       top: 900px;
+       left: -2px;
+       flex-wrap: wrap;
+       box-sizing: border-box;
+    }
+    
+    
+    .card-2 .line .photo-1 img{
+       width: 40%;
+       position: absolute;
+       left: 10px;
+       top: 30px;
+    }
+    
+    .card-2 .line .photo-2 img{
+       width: 40%;
+       position: absolute;
+       left: 210px;
+       top: 30px;
+    }
+    
+    .card-2 .line .photo-3 img{
+       width: 40%;
+       position: absolute;
+       left: 10px;
+       top: 180px;
+    }
+    
+    .card-2 .line .photo-4 img{
+       width: 40%;
+       position: absolute;
+       left: 190px;
+       top: 180px;
+    }
+    
+    .card-2 .line .photo-5 img{
+       width: 40%;
+       position: absolute;
+       left: 10px;
+       top: 330px;
+    }
+    
+    .card-2 .line .photo-6 img{
+       width: 40%;
+       position: absolute;
+       left: 190px;
+       top: 330px;
+    }
+    
+    
+    /*=================كيف نسنعمل    HOW TO USE ?=========================*/
+    .water{
+        width: 90%;    
+     }
+     
+     .foot{
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         position: relative;    
+         box-sizing: border-box;
+     }
+     
+     .water .foot h2{
+         position: absolute;
+         top: 1000px;
+         right: 60px;
+         text-align: center;
+         color: darkred;
+         font-size: 35px;
+         border-bottom: 3px solid orange;
+     }
+     
+     .water .foot h2::after{
+        display: none;
+         content: "";
+         width: 30%;
+         height: 3px;
+         background-color: silver;
+         position: absolute;
+         right: -30px;
+         top: 100%;
+     }
+     
+     .water .foot h2::before{
+        display: none;
+         content: "";
+         width: 30%;
+         height: 3px;
+         background-color: silver;
+         position: absolute;
+         left: -30px;
+         top: 100%;
+     }
+     
+     
+     
+     .water .foot .visa{
+         position: absolute;
+         top: 1150px;
+         left: -40px;
+         display: none;
+     }
+     
+     .water .foot .CARD p{
+         position: absolute;
+         top: 1100px;
+         right: 30px;
+         text-align: center;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-weight: bold;
+         font-size: 20px;
+         color: black;
+     }
+     
+     .water .foot .CARD button{
+         position: absolute;
+         top: 1370px;
+         right: 80px;
+         font-size: 15px;
+         border: 2px solid orange;
+         border-radius: 10px;
+         color: orange;
+         background-color: white;
+         width: 140px;
+         height: 40px;
+     }
+     
+     .water .foot .CARD button:hover{
+         background-color: orange;
+         color: white;
+     }
+     /*=================== END HOW TO USE===========================*/
+    /*==================من نحن    Start   WHO ARE WE            ===============*/
+    
+    .AHMED{
+        width: 90%;
+    }
+    
+    .SALAH{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .AHMED .SALAH .AAA{
+        position: absolute;
+        top: 1420px;
+        right: 100px;
+        text-align: center;
+        color: darkred;
+        font-size: 35px;
+        border-bottom: 3px solid orange;
+    }
+    
+    .AHMED .SALAH .AAA::after{
+        display: none;
+        content: "";
+        width: 65%;
+        height: 3px;
+        background-color: silver;
+        position: absolute;
+        right: -45px;
+        top: 100%;
+    }
+    
+    .AHMED .SALAH .AAA::before{
+        display: none;
+        content: "";
+        width: 65%;
+        height: 3px;
+        background-color: silver;
+        position: absolute;
+        left: -45px;
+        top: 100%;
+    }
+    
+    
+    .AHMED .SALAH .how p{
+        position: absolute;
+        right: 16px;
+        top: 1520px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .AHMED .SALAH .how button{
+        /* text-align: center; */
+        position: absolute;
+        right: 50px;
+        top: 2150px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        border: 2px solid orange;
+        border-radius: 10px;
+        color: orange;
+        background-color: white;
+        width: 130px;
+        height: 30px;
+    }
+    
+    .AHMED .SALAH .how button:hover{
+        background-color: orange;
+        color: white;
+    }
+    
+    
+    .AHMED .SALAH .are p{
+        /* text-align: center; */
+        position: absolute;
+        right: 30px;
+        top: 1780px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .AHMED .SALAH .are ol{
+        position: absolute;
+        left: 90px;
+        top: 1960px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+    }
+    /*=====================من نحن    End   WHO ARE WE  =====================*/
+    
+    /*======================فئات  Steart  CATEGORIES==============================*/
+    .perante{
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        background-color: #d3d3d3;
+        /* width: 1400px; */
+        height: 2500px;
+        position: relative;
+        top: 2220px;
+        left: -1px;
+        margin: auto;
+    }
+    
+    
+    .perante .Qasr{
+        position: absolute;
+        top: 50px;
+        right: 110px;
+        text-align: center;
+        color: darkred;
+        font-size: 35px;
+        border-bottom: 2px solid orange;
+    }
+    
+    .perante .Qasr::after{
+        display: none;
+        content: "";
+        width: 95%;
+        height: 2px;
+        background-color: silver;
+        position: absolute;
+        right: -45px;
+        top: 100%;
+    }
+    
+    .perante  .Qasr::before{
+        display: none;
+        content: "";
+        width: 95%;
+        height: 2px;
+        background-color: silver;
+        position: absolute;
+        left: -45px;
+        top: 100%;
+    }
+    
+    /*Friest Row*/
+     .childe{
+        display: inline-block;
+        width: 90%;
+        border-radius: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .caffee{
+        width: 90%;
+        height: 8%;
+        border-radius: 20px;
+        position: absolute;
+        left: 15px;
+        top: 140px;
+        transition: 0.3s;
+    }
+    
+    .caffee:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .a-1{
+        color: white;
+        background-color: orange;
+        width: 90%;
+        line-height: 4vh;
+        position: absolute;
+        top: 160px;
+        left: 15px;
+        transition: 0.3s;
+    }
+    
+    .a-1:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .services{
+        width: 90%;
+        height: 8%;
+        border-radius: 20px;
+        position: absolute;
+        left: 15px;
+        top: 345px;
+        transition: 0.3s;
+    }
+    
+    .services:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .a-2{
+        color: white;
+        background-color: orange;
+        width: 90%;
+        line-height: 4vh;
+        position: absolute;
+        top: 360px;
+        left: 15px;
+        transition: 0.3s;
+    }
+    
+    .a-2:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .transport{
+        width: 90%;
+        height: 8%;
+        border-radius: 20px;
+        position: absolute;
+        right: 13px;
+        top: 550px;
+        transition: 0.3s;
+    }
+    
+    .transport:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .a-3{
+        color: white;
+        background-color: orange;
+        width: 90%;
+        line-height: 4vh;
+        position: absolute;
+        top: 565px;
+        right: 13px;
+        transition: 0.3s;
+    }
+    
+    .a-3:hover{
+        transform: scaleY(1.1);
+    }
+    /*===========Secande Row===========*/
+    .beauty{
+        width: 90%;
+        height: 8%;
+        border-radius: 20px;
+        position: absolute;
+        left: 15px;
+        top: 755px;   
+        transition: 0.3s;
+    }
+    
+    .beauty:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .a-4{
+        color: white;
+        background-color: orange;
+        width: 90%;
+        line-height: 4vh;
+        text-align: center;
+        position: absolute;
+        top: 780px;
+        left: 15px;
+        transition: 0.3s;
+    }
+    
+    .a-4:hover{
+        transform: scaleY(1.1);
+    }
+    
+    
+    .travel{
+        width: 90%;
+        height: 8%;
+        border-radius: 20px;
+        position: absolute;
+        left: 15px;
+        top: 960px;
+        transition: 0.3s;
+    }
+    
+    .travel:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .a-5{
+        color: white;
+        background-color: orange;
+        width: 90%;
+        line-height: 4vh;
+        text-align: center;
+        position: absolute;
+        top: 980px;
+        left: 15px;
+        transition: 0.3s;
+    }
+    
+    .a-5:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .resturant{
+        width: 90%;
+        height: 8%;
+        border-radius: 20px;
+        position: absolute;
+        right: 12px;
+        top: 1165px;
+        transition: 0.3s;
+    }
+    
+    .resturant:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .a-6{
+        color: white;
+        background-color: orange;
+        width: 90%;
+        line-height: 4vh;
+        text-align: center;
+        position: absolute;
+        top: 1185px;
+        right: 12px;
+        transition: 0.3s;
+    }
+    
+    .a-6:hover{
+        transform: scaleY(1.1);
+    }
+    
+    /*=============Thiret Row======*/
+    
+    .education{
+        width: 90%;
+        height: 8%;
+        border-radius: 20px;
+        position: absolute;
+        left: 15px;
+        top: 1370px;   
+        transition: 0.3s;
+    }
+    
+    .education:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .a-7{
+        color: white;
+        background-color: orange;
+        width: 90%;
+        line-height: 4vh;
+        text-align: center;
+        position: absolute;
+        top: 1390px;
+        left: 15px;
+        transition: 0.3s;
+    }
+    
+    .a-7:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .entertain{
+        width: 90%;
+        height: 8%;
+        border-radius: 20px;
+        position: absolute;
+        left: 15px;
+        top: 1575px;
+        transition: 0.3s;
+    }
+    
+    .entertain:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .a-8{
+        color: white;
+        background-color: orange;
+        width: 90%;
+        line-height: 4vh;
+        text-align: center;
+        position: absolute;
+        top: 1595px;
+        left: 15px;
+        transition: 0.3s;
+    }
+    
+    .a-8:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .medical{
+        width: 90%;
+        height: 8%;
+        border-radius: 20px;
+        position: absolute;
+        right: 13px;
+        top: 1780px;
+        transition: 0.3s;
+    }
+    
+    .medical:hover{
+        transform: scaleY(1.1);
+    }
+    
+    .a-9{
+        color: white;
+        background-color: orange;
+        width: 90%;
+        line-height: 4vh;
+        text-align: center;
+        position: absolute;
+        top: 1800px;
+        right: 13px;
+        transition: 0.3s;
+    }
+    
+    .a-9:hover{
+        transform: scaleY(1.1);
+    } 
+    
+    
+    /*=======================End  CATEGORIES  فئات  ========================*/
+    /*==============Start BRANDS================*/
+    .perante .bran{
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 1960px;
+        right: 80px;
+        text-align: center;
+        color: darkred;
+        font-size: 45px;
+        border-bottom: 3px solid orange;
+    }
+    
+    .perante .bran::after{
+        display: none;
+        content: "";
+        width: 55%;
+        height: 3px;
+        background-color: silver;
+        position: absolute;
+        right: -45px;
+        top: 100%;
+    }
+    
+    .perante  .bran::before{
+        display: none;
+        content: "";
+        width: 55%;
+        height: 3px;
+        background-color: silver;
+        position: absolute;
+        left: -45px;
+        top: 100%;
+    }
+    
+    .brands .down .bottom{
+        position: absolute;
+        top: 2050px;
+        right: 20px;
+        font-size: 19px;
+        color: black;
+    }
+    
+    
+    .brands .end .namshi{
+        display: inline-block;
+         width: 30%;
+         height: 5%;
+         position: absolute;
+         top: 2300px;
+         left: 5px;
+    }
+    
+    .brands .end .shop{
+        display: inline-block;
+         width: 30%;
+         height: 5%;
+         position: absolute;
+         top: 2300px;
+         left: 94px;
+    }
+    
+    .brands .end .sweet{
+        display: inline-block;
+         width: 30%;
+         height: 5%;
+         position: absolute;
+         top: 2300px;
+         right: 5px;
+    }
+    /*==============End BRANDS================*/
+    /*--=====================Start Contact================--*/
+    .contact{
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+        height: 1250px;
+        background-color: #eee;
+        position: relative;
+        top: 2250px;
+        right: 10px;
+    }
+    .contact .frest .comuniction{
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: -15px;
+        right: 85px;
+        text-align: center;
+        color: darkred;
+        font-size: 45px;
+        border-bottom: 3px solid orange;
+    }
+    
+    .contact .frest .comuniction::after{
+        display: none;
+        content: "";
+        width: 55%;
+        height: 3px;
+        background-color: silver;
+        position: absolute;
+        right: -45px;
+        top: 100%;
+    }
+    
+    .contact .frest .comuniction::before{
+        display: none;
+        content: "";
+        width: 55%;
+        height: 3px;
+        background-color: silver;
+        position: absolute;
+        left: -45px;
+        top: 100%;
+    }
+    
+    .contact .frest .secande{
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        height: 10%;
+        font-size: 15px;
+        color: black;
+    }
+    
+    .contact .atsalat .vodafone{
+        position: absolute;
+        top: 250px;
+        left: 11px;
+        width: 90%;
+        height: 25%;
+    }
+    
+    .contact .footr .p-2 {
+        height: 400px;
+        width: 90%;
+        position: absolute;
+        top: 610px;
+        right: 16px;
+        background-color: #eee;
+        border-bottom: 3px solid black;
+        border-top:3px solid black;
+    }
+    
+    .contact .footr .p-2 .top .ddd{
+        font-size: 25px;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    
+    .contact .footr .p-2 .top .fooo{
+        width: 90%;
+        height: 8%;
+        position: absolute;
+        top: 50px;
+        right: 5px;
+    }
+    
+    .contact .footr .p-2 .center .aooo{
+        position: absolute;
+        top: 135px;
+        right: 5px;
+        width: 90%;
+        height: 8%;
+    }
+    
+    .contact .footr .p-2 .center .fff{
+        font-size: 25px;
+        position: absolute;
+        top: 105px;
+        right: 10px;
+    }
+    
+    
+    .contact .footr .p-2 .bottom .qqq{
+        font-size: 25px;
+        position: absolute;
+        top: 175px;
+        right:  5px;
+    }
+    
+    
+    .contact .footr .p-2 .bottom textarea{
+        width: 60%;
+        height: 40%;
+        position: absolute;
+        top: 210px;
+        right: 5px;
+    }
+    
+    
+    .contact .networke h3{
+        text-align: center;
+        position: absolute;
+        top: 1020px;
+        left: 40px;
+    
+    }
+    
+    .contact .networke .klo{
+        text-align: center;
+        position: absolute;
+        top: 1080px;
+        right: 20px;
+        /* left: 0px; */
+    }
+    
+    /*--=====================End Contact================--*/
+    
+    /*--=================Start Foter================--*/
+    .foter{
+        width: 100%;
+        height: 400px;
+        background-color:cadetblue;
+        position: relative;
+        top: 2260px;
+        right: 0px;
+    }
+    
+    .foter .left{
+        font-size: 10px;
+        position: absolute;
+        left: 10px;
+        top: 5px;
+        color: white;
+    }
+    
+    
+    .foter .left .ded span{
+        color: black;
+    }
+    
+    
+    .foter .right{
+        position: absolute;
+        right: 80px;
+        top: 150px;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .foter .right .one{
+        color: white;
+        margin-top: 60px;
+    }
+    
+    
+    #zzz{
+        text-align: center;
+        /* position: absolute; */
+        /* left: 80px; */
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+    
+    
+    .foter .right a{
+        color: darkred;
+        font-size: 17px;
+        font-weight: bold;
+        /* position: absolute; */
+        top: 15px;
+        left: 25px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .foter .right a:hover{
+        font-size: 30px;
+        color: darkblue;
+    }
+    
+    }
+
+
+
+
+
